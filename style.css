@@ -1,0 +1,69 @@
+/* fonts google */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Han+Sans&family=Bree+Serif&family=Coiny&family=Concert+One&family=Courgette&family=Dancing+Script&family=Devonshire&family=Great+Vibes&family=Lilita+One&family=Nunito&family=Patua+One&family=Poppins:wght@300&family=Roboto+Slab&family=Viga&display=swap');
+/* styling start */
+section.jumbotron {
+  background: url(slide-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bg-orangeMerah {
+  background: #e96b56;
+}
+.text-orangeMerah {
+  color: #e96b56 !important;
+}
+.radius {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.paddingLeftRight {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.paddingTopBottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section.blogPoster {
+  padding-top: 2.5rem;
+}
+section.blogPoster p {
+  font-family: 'Nunito';
+}
+section.blogPoster ol li {
+  font-family: 'Nunito';
+}
+section p {
+  font-family: 'Nunito';
+}
+.navbar-brand {
+  font-family: 'Concert One', sans-serif;
+}
+.nav-link {
+  font-family: 'Nunito', sans-serif;
+}
+.nav-link:hover {
+  color: #e96b56 !important;
+}
+h1 {
+  font-family: 'Coiny', sans-serif;
+  text-shadow: 2px 1px 1px white;
+}
+h2,
+h3,
+h4 {
+  font-family: 'Concert One', sans-serif;
+  text-shadow: 2px 1px 1px white;
+}
+.text-shadowWhite {
+  text-shadow: 2px 1px 1px white;
+}
